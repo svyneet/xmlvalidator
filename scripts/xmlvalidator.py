@@ -20,3 +20,5 @@ def validateXMLFormatAndMissingValue(file):
             print("The xpath of the tag with missing value:\n "+e.getpath(elt)+"\n")
             
 validateXMLFormatAndMissingValue(file)
+
+sys.stdout.flush()
