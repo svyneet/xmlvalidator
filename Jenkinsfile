@@ -6,9 +6,7 @@ pipeline {
             steps{
                 echo 'Preparing'
                 sh 'python3 --version'
-			cd scripts
-			ls -lr
-			sh ('bash xmlvalidator.sh')
+    			sh ('bash scripts/xmlvalidator.sh')
 		     
 		 }
 		}
